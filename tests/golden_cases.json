@@ -1,0 +1,24 @@
+{
+  "_note": "Expected values copied from BRD Appendix A.10. Do not change a number here without changing the BRD first.",
+  "cases": [
+    {"id":"M1","class":"PVT_CAR","expected_total":"27872.86"},
+    {"id":"M2","class":"PVT_CAR","expected_total":"85968.00"},
+    {"id":"M3","class":"PVT_CAR","expected_rule":"R1"},
+    {"id":"D1","class":"PVT_CAR","expected_idv":"700000.00"},
+    {"id":"N1","class":"PVT_CAR","expected_total":"22213.54"},
+    {"id":"K1","class":"PVT_CAR","expected_total":"20904.64"},
+    {"id":"T1","class":"TWO_WHEELER","expected_total":"2772.67"},
+    {"id":"G1","class":"GOODS","expected_total":"120186.00"},
+    {"id":"G2","class":"GOODS","expected_total":"1877388.48","expected_rule":"R5"},
+    {"id":"G3","class":"GOODS","expected_total":"117336.78"},
+    {"id":"PC1","class":"PASSENGER","expected_total":"35152.92"},
+    {"id":"PC2","class":"PASSENGER","expected_total":"182033.50","expected_rule":"R7"},
+    {"id":"X1","class":"MISC","expected_total":"115841.60","expected_rule":"R8"},
+    {"id":"X2","class":"MISC","expected_total":"17723.20"},
+    {"id":"CA1","class":"CLAIM","expected_payable":"116500.00","expected_payable_zero_dep":"139000.00"},
+    {"id":"CA2","class":"CLAIM","expected_payable":"679000.00"},
+    {"id":"CA3","class":"CLAIM","expected_payable":"799000.00"},
+    {"id":"CA4","class":"CLAIM","expected_payable":"750000.00"}
+  ],
+  "stretch_placeholders": ["S1","S2","S3","S4"]
+}

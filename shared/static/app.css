@@ -1,0 +1,12 @@
+/* Design tokens - one place to restyle the whole prototype */
+:root{
+  --brand:#0B5FFF; --brand-dark:#0845B8; --ink:#14213D; --muted:#5B6B82;
+  --ok:#12805C; --warn:#B26A00; --bad:#C0392B; --bg:#F6F8FB; --card:#FFFFFF; --line:#DDE3EC;
+  --radius:12px; --shadow:0 1px 3px rgba(20,33,61,.08),0 8px 24px rgba(20,33,61,.06);
+}
+body{background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,sans-serif}
+.card-x{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:1.25rem}
+.money{font-variant-numeric:tabular-nums;text-align:right}
+.pill{display:inline-block;padding:.15rem .6rem;border-radius:999px;font-size:.8rem;font-weight:600}
+.pill-ok{background:#E3F4EE;color:var(--ok)} .pill-warn{background:#FFF1DC;color:var(--warn)} .pill-bad{background:#FBE5E2;color:var(--bad)}
+.proto-footer{position:sticky;bottom:0;background:#14213D;color:#fff;text-align:center;font-size:.8rem;padding:.4rem}

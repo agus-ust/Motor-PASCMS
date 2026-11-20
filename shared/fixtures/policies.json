@@ -1,0 +1,32 @@
+[
+  {
+    "policy_no": "FIX-PC-0001", "product_code": "MOTOR_PVT_CAR", "status": "ISSUED",
+    "inception": "2026-04-01", "expiry": "2027-03-31", "insured_party_id": 1, "premium_paid": true,
+    "risks": [{
+      "risk_no": 1, "vehicle_class": "PVT_CAR", "registration_no": "KL01AB1234",
+      "chassis_no": "MA3FJEB1S00000001", "engine_no": "K12MN0000001",
+      "make": "Maruti Suzuki", "model": "Swift", "variant": "VXi", "manufacture_year": 2022,
+      "engine_cc": 1197, "idv": 800000, "coverages": ["OD", "TP", "PA_OWNER", "ZERO_DEP", "ROADSIDE"], "ncb_pct": 25
+    }]
+  },
+  {
+    "policy_no": "FIX-GC-0001", "product_code": "MOTOR_GOODS", "status": "ISSUED",
+    "inception": "2026-05-01", "expiry": "2027-04-30", "insured_party_id": 2, "premium_paid": true,
+    "risks": [{
+      "risk_no": 1, "vehicle_class": "GOODS", "registration_no": "TN09CD5678",
+      "chassis_no": "MAT448012N0000002", "engine_no": "E5N0000002",
+      "make": "Tata", "model": "Prima", "variant": "16T", "manufacture_year": 2023,
+      "engine_cc": null, "idv": 2400000, "coverages": ["OD", "TP", "LL_DRIVER"], "ncb_pct": 0
+    }]
+  },
+  {
+    "policy_no": "FIX-PC-LAPSED", "product_code": "MOTOR_PVT_CAR", "status": "LAPSED",
+    "inception": "2025-01-01", "expiry": "2025-12-31", "insured_party_id": 3, "premium_paid": true,
+    "risks": [{
+      "risk_no": 1, "vehicle_class": "PVT_CAR", "registration_no": "KA03EF9012",
+      "chassis_no": "MA3FJEB1S00000003", "engine_no": "K12MN0000003",
+      "make": "Hyundai", "model": "i20", "variant": "Asta", "manufacture_year": 2019,
+      "engine_cc": 1197, "idv": 450000, "coverages": ["OD", "TP"], "ncb_pct": 0
+    }]
+  }
+]
