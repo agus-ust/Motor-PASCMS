@@ -5,3 +5,4 @@ sqlmodel
 python-multipart
 pytest
 httpx
+itsdangerous

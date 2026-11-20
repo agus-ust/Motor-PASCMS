@@ -12,7 +12,7 @@ Reset to known state first: `python -m shared.fixtures.seed_fixtures --reset`
 1. Intermediary: upload 12-truck CSV -> premium 1,877,388.48 -> rule R5 refers to underwriter.
 2. Underwriter: referral inbox -> approve with reason.
 3. Endorse: add 13th truck mid-term -> 117,336.78.
-4. Claims officer: third-party injury FNOL -> reserve 1,500,000 -> case stages -> award 1,250,000 -> regional head approval.
+4. Claims officer: third-party injury FNOL -> reserve 1,500,000 -> case stages -> award 750,000 (BRD A.8 CA4 limit) -> regional head approval.
 
 ## Wow moment (3 minutes): launch a product by configuration
 Admin: clone private-car version -> create "Electric two-wheeler" product from JSON -> quote it. No code release.
