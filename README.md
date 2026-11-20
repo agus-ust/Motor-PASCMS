@@ -9,9 +9,9 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 pytest                      # 22 tests should pass on a fresh checkout
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8001
 ```
-Open http://127.0.0.1:8000 (page) and http://127.0.0.1:8000/docs (API test page).
+Open http://127.0.0.1:8001 (page) and http://127.0.0.1:8001/docs (API test page).
 
 ## Day-1 chores (do once)
 1. Download Bootstrap CSS (`bootstrap.min.css`) and HTMX (`htmx.min.js`) into `shared/static/vendor/` so the demo works offline.
